@@ -1,6 +1,8 @@
 <h1>What is webpack?</h1>
 
 <h4>It is a static module bundler for javascript application. It internally build a dependency graph, and combines every module of the project into one or more bundles.</h4>
+<br/>
+<br/>
 
 <h1><b>What are the core concepts?</b></h1>
 
