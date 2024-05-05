@@ -10,6 +10,8 @@
 <h3>2) output:</h3> it tells webpack were to emit the bundles it creates and how to name these files.<br/>
 <h3>3) loaders:</h3> webpack only understand javascript and json files, loaders allow webpack to process other types of files.<br/>
 <h3>4) plugin:</h3> plugins can be leveraged to perform a wider range of tasks like bundle optimization, asset management etc.<br/>
-   
+
+<br/>
+<br/>
 
 It the above project i have used webpack and webpack cli for creating bundles.
