@@ -1,4 +1,4 @@
-What is webpack?
+<b>What is webpack?</b>
 It is a static module bundler for javascript application. It internally build a dependency graph, and combines every module of the project into one or more bundles. 
 
 What are the core concepts?
@@ -7,3 +7,5 @@ What are the core concepts?
 3) loaders: webpack only understand javascript and json files, loaders allow webpack to process other types of files.
 4) plugin: plugins can be leveraged to perform a wider range of tasks like bundle optimization, asset management etc.
    
+
+It the above project i have used webpack and webpack cli for creating bundles.
