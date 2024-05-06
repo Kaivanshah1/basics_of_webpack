@@ -1,5 +1,17 @@
 function generateJoke() {
-  return "I don't trust stairs because they're always up to something.";
+  const fetchJokes = async () => {
+    const response = await fetch("https://icanhazdadjoke.com/", {
+      headers: {
+        Accept: "application/json",
+      },
+    });
+    console.log(response);
+    const data = await response.json();
+    console.log(data);
+
+    document.getElementById("joke").textContent = data.joke;
+  };
+  fetchJokes();
 }
 
 export default generateJoke;
